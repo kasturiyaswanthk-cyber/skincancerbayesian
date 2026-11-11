@@ -1,0 +1,17 @@
+# Core dependencies for skin_cancer_uncertainty.ipynb
+# Python 3.10 or 3.11 recommended.
+#
+# TensorFlow installation and GPU support are platform-dependent.
+# Follow https://www.tensorflow.org/install for the correct setup.
+
+tensorflow>=2.15,<2.20
+numpy>=1.26,<2.2
+pandas>=2.0,<3.0
+matplotlib>=3.7,<4.0
+scipy>=1.10,<2.0
+scikit-learn>=1.3,<2.0
+ipython>=8.0,<10.0
+jupyter>=1.0,<2.0
+
+# Optional: only required when RUN_BO_SEARCH = True in the notebook.
+keras-tuner>=1.4,<2.0
